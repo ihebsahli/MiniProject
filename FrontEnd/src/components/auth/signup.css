@@ -1,0 +1,82 @@
+/* CSS */
+.auth-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .register-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .custom-input {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .btn-hover {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+    padding: 12px 36px;
+    border: 2px solid #f0f0f0;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.4s ease-out;
+    cursor: pointer;
+  }
+  
+  .btn-hover:hover {
+    color: #fff;
+    background-color: #b8860b;
+    border-color: #b8860b;
+  }
+  
+  .link-btn {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .auth-form-container {
+      max-width: 500px;
+    }
+  
+    .register-form {
+      width: 100%;
+    }
+  
+    label {
+      font-size: 14px;
+    }
+  
+    .custom-input {
+      font-size: 14px;
+    }
+  
+    .btn-hover {
+      font-size: 14px;
+    }
+  }
+  

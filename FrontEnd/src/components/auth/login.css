@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    max-width: 768px; /* largeur maximale de la container */
+    margin: 0 auto; /* centrage horizontal */
+    padding: 0 20px; /* espacement intérieur */
+  }
+
+  .auth-form-container {
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  /* code css pour les écrans de petite taille */
+  @media only screen and (max-width: 768px) {
+    .container {
+      max-width: 100%; /* largeur maximale de la container pour les petits écrans */
+      padding: 0 10px; /* espacement intérieur réduit pour les petits écrans */
+    }
+
+    .auth-form-container {
+      padding: 10px; /* espacement réduit pour les petits écrans */
+    }
+  }
